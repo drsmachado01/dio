@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @Setter
 public class BlockEntity {
     private Long id;
-    private CardDTO card;
+    private Long cardId;
     private String reason;
     private LocalDateTime blockedAt;
     private LocalDateTime unblockedAt;

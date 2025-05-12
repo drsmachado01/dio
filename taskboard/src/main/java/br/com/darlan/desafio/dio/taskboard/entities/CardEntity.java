@@ -9,7 +9,7 @@ import lombok.*;
 @Setter
 public class CardEntity {
     private Long id;
-    private ColumnDTO column;
+    private Long columnId;
     private String title;
     private String description;
 }
